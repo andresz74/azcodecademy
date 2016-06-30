@@ -1,1 +1,1 @@
-var app = angular.module("BoltNetworkApp", []);
+var app = angular.module('BoltNetworkApp', []);
