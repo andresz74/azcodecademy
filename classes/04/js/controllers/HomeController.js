@@ -1,5 +1,5 @@
-app.controller('HomeController', ['$scope', 'photos', function($scope, photos) {
-  photos.success(function(data) {
-    $scope.photos = data;
+app.controller('HomeController', ['$scope', 'myphotos', function($scope, xphotos) {
+  xphotos.success(function(data) {
+    $scope.yphotos = data;
   });
 }]);
