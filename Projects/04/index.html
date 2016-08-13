@@ -10,14 +10,15 @@
   <body ng-app="BoltNetworkApp">
     <div class="header">
       <div class="container">
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/4/bolt-network-1/img/logo.svg" width="180" height="34">
+        <img src="img/logo.svg" width="180" height="34">
       </div>
     </div>
 
     <div class="main" ng-controller="MainController">
       <div class="container">
         <div class="content">
-          <program-listing info="listening"></program-listing>
+          <program-listing listing="program1"></program-listing>
+          <program-listing listing="program2"></program-listing>
         </div>
       </div>
     </div>
@@ -58,7 +59,6 @@
 
     <!-- Controllers -->
     <script src="js/controllers/MainController.js"></script>
-
     <!-- Directives -->
     <script src="js/directives/programListing.js"></script>
   </body>
